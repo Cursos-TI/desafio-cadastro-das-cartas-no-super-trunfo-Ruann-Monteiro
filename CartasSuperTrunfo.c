@@ -8,11 +8,22 @@
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: , nome, , área,
+
+//primeira carta 
+
      int codigo_da_cidade;
      int populacao;
      float PIB;
      int numero_de_pontos_turisticos;
-    char nome[50];
+     char nome[50];
+
+//Segunda carta
+
+     int codigo_da_cidade2;
+     int populacao2;
+     float PIB2;
+     int numero_de_pontos_turisticos2;
+     char nome2[50];
 
     // Cadastro
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.ro das Cartas:
@@ -36,22 +47,22 @@ int main() {
     scanf("%s", &nome);
     printf("\n");
 
-//Segunda carta
+//Segunda carta 
 
     printf("Codigo da Cidade: \n");
-    scanf("%d", &codigo_da_cidade);
+    scanf("%d", &codigo_da_cidade2);
 
     printf("População: \n");
-    scanf("%d", &populacao);
+    scanf("%d", &populacao2);
 
     printf("PIB:$ \n");
-    scanf("%f", &PIB);
+    scanf("%f", &PIB2);
 
     printf("Numero de pontos turisticos: \n");
-    scanf("%d", &numero_de_pontos_turisticos);
+    scanf("%d", &numero_de_pontos_turisticos2);
 
     printf("Nome da Cidade: \n");
-    scanf("%s", &nome);
+    scanf("%s", &nome2);
     printf("\n");
 
     // Exibição dos Dados das Cartas:
@@ -67,14 +78,14 @@ int main() {
     printf("Numero de pontos turisticos: %d\n",numero_de_pontos_turisticos);
     printf("\n");
 
-//Segunda carta
+//segunda carta 
 
-    printf("Nome da Cidade: %s\n", nome);
-    printf("Codigo da Cidade: %d\n",codigo_da_cidade);
-    printf("População: %d\n",populacao);
-    printf("PIB: $%.3f\n",PIB);
-    printf("Numero de pontos turisticos: %d\n",numero_de_pontos_turisticos);
+    printf("Nome da Cidade: %s\n", nome2);
+    printf("Codigo da Cidade: %d\n",codigo_da_cidade2);
+    printf("População: %d\n",populacao2);
+    printf("PIB: $%.3f\n",PIB2);
+    printf("Numero de pontos turisticos: %d\n",numero_de_pontos_turisticos2);
     printf("\n");
-
+ 
     return 0;
 }
